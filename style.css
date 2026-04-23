@@ -46,7 +46,7 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Outfit', sans-serif; line-height: 1.1; }
 .navbar.scrolled { background: rgba(10,10,15,0.95); padding: 0.7rem 2rem; }
 .nav-logo {
   font-family: 'Outfit', sans-serif; font-size: 1.6rem; font-weight: 800;
-  background: var(--gradient-1); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  background: var(--gradient-1); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
   letter-spacing: -0.5px;
 }
 .nav-links { display:flex; gap:2rem; list-style:none; }
@@ -101,7 +101,7 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Outfit', sans-serif; line-height: 1.1; }
   animation: fadeInUp 0.8s ease 0.1s both;
 }
 .hero h1 .highlight {
-  background: var(--gradient-1); -webkit-background-clip:text; -webkit-text-fill-color:transparent;
+  background: var(--gradient-1); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent;
 }
 .hero p {
   font-size:1.15rem; color:var(--text-secondary); max-width:520px;
@@ -298,7 +298,7 @@ section { padding: 6rem 2rem; }
   display:flex; justify-content:space-between; align-items:center;
   flex-wrap:wrap; gap:1rem;
 }
-.footer-logo { font-family:'Outfit'; font-size:1.3rem; font-weight:800; background:var(--gradient-1); -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
+.footer-logo { font-family:'Outfit'; font-size:1.3rem; font-weight:800; background:var(--gradient-1); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; }
 .footer p { color:var(--text-muted); font-size:0.85rem; }
 .footer-links { display:flex; gap:1.5rem; list-style:none; }
 .footer-links a { color:var(--text-muted); text-decoration:none; font-size:0.85rem; transition:color 0.3s; }
